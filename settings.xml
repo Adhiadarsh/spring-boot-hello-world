@@ -7,7 +7,7 @@
   <proxies></proxies>
   <servers>
     <server>
-      <id>sumit-snap1</id>
+      <id>adhi-snap</id>
       <username>admin</username>
       <password>admin123</password>
     </server>
