@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: my-container
-        image: quay.io/sumitbiswal/jenkins-agent-maven:latest
+        image: quay.io/adhis/java-maven
         ports:
         - containerPort: 80
