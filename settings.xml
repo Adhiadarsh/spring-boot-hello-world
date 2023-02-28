@@ -16,9 +16,9 @@
   
   <mirrors>
     <mirror>
-      <id>sumit-proxy1</id>
+      <id>adhi-proxy</id>
       <mirrorOf>*</mirrorOf>
-      <url>http://nexus-java-sonar-nexus.apps.cluster-mz8m9.mz8m9.sandbox2638.opentlc.com/repository/sumit-proxy1/</url>
+      <url>http://nexus-new-java.apps.cluster-dvcxg.dvcxg.sandbox3006.opentlc.com/repository/adhi-proxy/</url>
     </mirror>
   </mirrors>
   <profiles>
@@ -36,9 +36,9 @@
      <id>snapshot</id>
      <repositories>
        <repository>
-         <id>sumit-snap1</id>
+         <id>adhi-snap</id>
          <name>your custom repo</name>
-         <url>http://nexus-java-sonar-nexus.apps.cluster-mz8m9.mz8m9.sandbox2638.opentlc.com/repository/sumit-snap1/</url>
+         <url>http://nexus-new-java.apps.cluster-dvcxg.dvcxg.sandbox3006.opentlc.com/repository/adhi-snap/</url>
        </repository>      
      </repositories>
           
@@ -47,9 +47,9 @@
      <id>release</id>
      <repositories>
        <repository>
-         <id>sumit-snap1</id>
+         <id>adhi-snap</id>
          <name>your custom repo</name>
-         <url>http://nexus-java-sonar-nexus.apps.cluster-mz8m9.mz8m9.sandbox2638.opentlc.com/repository/sumit-snap1/</url>
+         <url>http://nexus-new-java.apps.cluster-dvcxg.dvcxg.sandbox3006.opentlc.com/repository/adhi-snap/</url>
        </repository>
      </repositories>
    </profile>
